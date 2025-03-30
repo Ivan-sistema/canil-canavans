@@ -5,16 +5,17 @@
                     <img src="{{asset('assets/images/logotipo-white.png')}}" alt="Canil Canavans">
                 </a>
             </div>
-            <div class="navigator">
-                <ul>
+            <nav class="navigator">
+            <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+            <ul data-menu="list" id="menu">
                     <li><a href="{{route('home')}}" title="Home">Home</a></li>
                     <li><a href="{{route('ocanil')}}" title="O-Canil">O Canil</a></li>
                     <li><a href="{{route('ohusky')}}" title="O-Husky">O Husky</a></li>
-                    <li><a href="{{route('nossas-estrelas')}}" title="Nossas Estrelas">Nossas Estrelas</a></li>
+                    <li><a href="{{route('nossas_estrelas')}}" title="Nossas Estrelas">Nossas Estrelas</a></li>
                     <li><a href="{{route('filhotes')}}" title="Filhotes">Filhotes</a></li>
                     <li><a href="{{route('contato')}}" title="Contato">Contato</a></li>
                 </ul>
-            </div>
+</nav>
         </div>
         <div class="container">
             <div class="headline flex">

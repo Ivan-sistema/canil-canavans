@@ -3,12 +3,11 @@
 @section('content')
 
 <section class="container-full" id="oCanil">
-            <div class="container o-canil">
-                <div class="o-canil__header">
-                    <h2>O CANIL CANAVANS</h2>
-                    <p>Descubra o porquê de termos a melhor estrutura para criação da raça Husky Siberiano da América Latina
-                        aqui temos somente filhotes de raça pura com altíssimo padrão de linhagem e além disso, colocamos em primeiro lugar o bem estar e saúde dos pais e mães de nossos filhotes.</p>
-                </div>
+            <div class="container">
+                <x-title.title-section 
+                title="O CANIL CANAVANS" 
+                conteudo="Descubra o porquê de termos a melhor estrutura para criação da raça Husky Siberiano da América Latina aqui temos somente filhotes de raça pura com altíssimo padrão de linhagem e além disso, colocamos em primeiro lugar o bem estar e saúde dos pais e mães de nossos filhotes." />
+              
                 <div class="o-canil__content">
                     <article class="sobre flex flex-justify-content-between">
                         <div class="sobre__destaque">
@@ -83,15 +82,15 @@
         </section>
 
         <section id="estrelas" class="container-full">
-            <div class="estrela estrelas__header">
-                <h2>NOSSAS ESTRELAS</h2>
-                <p>Qualidade sempre foi nosso foco, e podemos dizer que temos os filhotes mais lindos que você pode encontrar 
-                    com procedencia genética sendo filhotes de campeões.
-                </p>
+            <div class="container">
+                <x-title.title-section 
+                    title="NOSSAS ESTRELAS" 
+                    conteudo="Qualidade sempre foi nosso foco, e podemos dizer que temos os filhotes mais lindos que você pode encontrar com procedencia genética sendo filhotes de campeões." />
+              
             </div>
             <div class="estrelas__content">
                 <div class="card card__padreadores">
-                    <a href="{{route('nossas-estrelas')}}" title="{{ config('app.name', 'Canil Canavans') }} | Padreadores">
+                    <a href="{{route('nossas_estrelas')}}" title="{{ config('app.name', 'Canil Canavans') }} | Padreadores">
                         <div class="card__content">
                             <h2>PADREADORES</h2>
                             <span>SAIBA +</span>
@@ -99,7 +98,7 @@
                     </a>
                 </div>
                 <div class="card card__matrizes">
-                    <a href="{{route('nossas-estrelas')}}" title="{{ config('app.name', 'Canil Canavans') }} | Matrizes">
+                    <a href="{{route('nossas_estrelas')}}" title="{{ config('app.name', 'Canil Canavans') }} | Matrizes">
                         <div class="card__content">
                             <h2>MATRIZES</h2>
                             <span>SAIBA +</span>
@@ -210,6 +209,6 @@
                     </ul>
                 </div>
             </div>
-
+</section>
 
 @endsection

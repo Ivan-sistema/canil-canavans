@@ -1,12 +1,17 @@
-header{
+header {
     padding: 20px 0 100px;
-    background: url('../../../public/assets/images/banner-1.jpg') no-repeat;
-    background-size:cover;
+    background: url("../../../public/assets/images/banner-1.jpg") no-repeat;
+    background-size: cover;
     height: 100%;
     float: left;
     flex-direction: column;
 }
-.logotipo{
+.logotipo {
     width: 10%;
 }
 
+@media (max-width: $layout-breakpoint-mobile) {
+    .logotipo {
+        width: 30%;
+    }
+}

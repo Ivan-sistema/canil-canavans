@@ -21,4 +21,9 @@
 <!-- Footer -->
 <x-base.footer />
 <!-- /Footer -->
+<div class="whatsapp">
+                <a href="https://w.app/mxowfz" title="Canil Canavans | Fale Conosco" target="_blank">
+                    <img src="./assets/images/whatsapp.png" alt="Canil Canavans | Fale Conosco">
+                </a>
+            </div>
 </html>
