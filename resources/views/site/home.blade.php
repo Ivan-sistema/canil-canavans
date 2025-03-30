@@ -210,6 +210,6 @@
                     </ul>
                 </div>
             </div>
-
+</section>
 
 @endsection
