@@ -22,3 +22,5 @@ Route::get('/filhotes', [SiteController::class, 'filhotes'])->name('filhotes');
 Route::get('/contato', [SiteController::class, 'contato'])->name('contato');
 
 
+Route::get('/login', function(){return view('auth.login');})->name('login');
+

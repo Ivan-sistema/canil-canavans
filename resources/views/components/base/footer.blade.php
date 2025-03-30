@@ -4,7 +4,7 @@
   <div class="social"></div>
   </div>
 </footer> -->
-<div class="container-full" style="background-color: #f8f8f8;">
+<div class="container-full" style="background-color: #fff;">
   <div class="container copy">
     <div class="all-info">
       <span>@2025 todos os direitos reservados</span>
