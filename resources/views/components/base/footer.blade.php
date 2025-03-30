@@ -1,9 +1,9 @@
-<footer>
+<!-- <footer>
   <div class="container">
   <div class="description"></div>
   <div class="social"></div>
   </div>
-</footer>
+</footer> -->
 <div class="container-full" style="background-color: #f8f8f8;">
   <div class="container copy">
     <div class="all-info">

@@ -3,12 +3,11 @@
 @section('content')
 
 <section class="container-full" id="oCanil">
-            <div class="container o-canil">
-                <div class="o-canil__header">
-                    <h2>CONTATO</h2>
-                    <p>Preencha o formulário logo abaixo e em breve entraremos nossa equipe entrará em contato com você, desde já agradecemos o contato!!!</p>
-                </div>
-                
+  <div class="container">
+                <x-title.title-section 
+                    title="CONTATO" 
+                    conteudo="Preencha o formulário logo abaixo e em breve entraremos nossa equipe entrará em contato com você, desde já agradecemos o contato!!!" />
+              
             </div>
         </section>
         <section id="husky">
@@ -117,11 +116,11 @@
        
 
         <section id="estrelas" class="container-full">
-            <div class="estrela estrelas__header">
-                <h2>NOSSAS ESTRELAS</h2>
-                <p>Qualidade sempre foi nosso foco, e podemos dizer que temos os filhotes mais lindos que você pode encontrar 
-                    com procedencia genética sendo filhotes de campeões.
-                </p>
+        <div class="container">
+                <x-title.title-section 
+                    title="NOSSAS ESTRELAS" 
+                    conteudo="Qualidade sempre foi nosso foco, e podemos dizer que temos os filhotes mais lindos que você pode encontrar com procedencia genética sendo filhotes de campeões." />
+              
             </div>
             <div class="estrelas__content">
                 <div class="card card__padreadores">
