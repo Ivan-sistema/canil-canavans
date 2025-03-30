@@ -1,0 +1,30 @@
+.banner{
+    background-size: cover;
+    height: 100vh;
+    float: left;
+}
+.headline{
+    max-width: 40%;
+    justify-content: center;
+    flex-direction: column;
+    h2{
+        color: var(--white);
+        @include lato-thin;
+    }
+    h4{
+        color: var(--secondary);
+        @include lato-bold;
+    }
+    p{
+        color: var(--white);
+    }
+}
+
+
+@media (max-width: $layout-breakpoint-mobile) {
+    .headline{
+        max-width: 90%;
+        padding: 0 5%;
+
+    }
+}

@@ -1,0 +1,82 @@
+@import "tools/tools.scss";
+@import "variables.scss";
+
+body{
+    @include lato-regular;
+}
+
+h2{
+
+    @include  lato-bold;
+    font-size: 48px;
+
+}
+h3{
+
+    @include  lato-light ;
+    font-size: 40px;
+}
+h4{
+
+    @include  lato-bold;
+    font-size: 32px;
+    margin: 10px 0 0;
+    color: var(--secondary);
+}
+p{
+    @include  lato-regular;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 32px 0 32px;
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+    position: relative;
+    &-full{
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
+.flex{
+    display: flex;
+    &-justify-content-between{
+        justify-content: space-between;
+    }
+    &-justify-content-around{
+        justify-content: space-around;
+    }
+}
+.filter{
+    &__grayscale{
+        filter: grayscale(100%);
+        &:hover{
+            filter: grayscale(0);
+        }
+    }
+    &__blur{
+        filter: blur(0.2rem);
+    }
+}
+
+.m5{
+    margin: 50px 0;
+}
+
+.whatsapp{
+    position: fixed;
+    z-index: 99999;
+    right: 20px;
+    bottom: 20px;
+    width: 180px;
+}
+
+@media (max-width: $layout-breakpoint-mobile) {
+    .container{
+        width: 90%;
+        padding: 0 5%;
+
+    }
+}
