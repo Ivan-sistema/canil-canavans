@@ -4,7 +4,7 @@
         &__formulario {
             padding: 2.5% 5%;
             width: 90%;
-            background: var(--secondary);
+            background: var(--whitef8);
 
             &--title-form {
                 margin: 32px 0;
@@ -24,7 +24,8 @@
 }
 
 input,
-select {
+select,
+password {
     font-size: 1.2rem;
     padding: 10px;
     margin-bottom: 20px;
@@ -32,7 +33,7 @@ select {
     border-left: 0;
     border-right: 0;
     border-top: 0;
-    border-bottom: 1px solid var(--white);
+    border-bottom: 1px solid var(--primary);
     background: transparent;
     font-size: 14px;
     height: 50px;
