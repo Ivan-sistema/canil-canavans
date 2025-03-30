@@ -1,0 +1,33 @@
+.navigator{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    ul{
+        display: flex;
+        li{
+            padding: 0 25px;
+            a{
+                font-size: 16px;
+                color: var(--white);
+                transition: all 1s;
+            }
+            &:hover{
+                a {
+                    color: var(--secondary);
+                    transition: all 1s;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $layout-breakpoint-mobile){
+    .navigator{
+        ul{
+            li{
+                padding: 0 5px;
+                
+            }
+        }
+    }
+}
