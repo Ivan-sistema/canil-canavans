@@ -19,8 +19,7 @@
                         <div class="sobre__conteudo">
                             <h2>O CANIL</h2>
                             <h4>CANAVANS SIBERIANS</h4>
-                            <p>Somos conhecido pelo trabalho personalizado com a nossa “família canina”, aqui temos somente filhotes de raça pura com altíssimo padrão de linhagem e além disso, colocamos 
-                                em primeiro lugar o bem estar e saúde dos pais e mães de nossos filhotes. </p>
+                            <p>Somos conhecido pelo trabalho personalizado com a nossa “família canina”, aqui temos somente filhotes de raça pura com altíssimo padrão de linhagem e além disso, colocamos em primeiro lugar o bem estar e saúde dos pais e mães de nossos filhotes. </p>
                         </div>
                     </article>
 
@@ -42,6 +41,27 @@
                 </div>
             </div>
         </section>
+
+        <section id="gallery" class="container-full">
+          <div class="gallery">
+            <div class="gallery__header">
+              <h2>Fotos do Canil</h2>
+              <p>Para você que gostaria de ver mais sobre o nosso Canil, veja abaixo fotos de todo o lugar e da nossa estrutura, nosso foco sempre foi trazer a melhor estrutura e comodidade para nossos Huskys Siberianos.</p>
+            </div>
+            <div class="gallery__content">
+            <x-gallery.gallery image="{{asset('/assets/images/o-canil.jpg') }}" alt="{{ config('app.name', 'Canil Canavans') }}" />
+            <x-gallery.gallery image="{{asset('/assets/images/o-canil-estrutura.jpg') }}" alt="{{ config('app.name', 'Canil Canavans') }}" />
+            <x-gallery.gallery image="{{asset('/assets/images/o-canil.jpg') }}" alt="{{ config('app.name', 'Canil Canavans') }}" />
+            <x-gallery.gallery image="{{asset('/assets/images/o-canil-estrutura.jpg') }}" alt="{{ config('app.name', 'Canil Canavans') }}" />
+            <x-gallery.gallery image="{{asset('/assets/images/o-canil.jpg') }}" alt="{{ config('app.name', 'Canil Canavans') }}" />
+            <x-gallery.gallery image="{{asset('/assets/images/o-canil-estrutura.jpg') }}" alt="{{ config('app.name', 'Canil Canavans') }}" />
+                        
+            
+
+            </div>
+          </div>
+        </section>
+        
 
 
         <section id="husky">
