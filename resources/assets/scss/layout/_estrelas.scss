@@ -1,0 +1,219 @@
+#estrelas{
+    background: #CEE2EF;
+    .estrelas{
+
+        &__header{
+            padding: 64px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            h2{
+                color: var(--primary);
+            }
+            p{
+                color: var(--primary);
+                margin-top: 32px;
+                text-align: center;
+                max-width: 60%;
+            }
+        }
+        &__content{
+            padding: 0 0 64px 0;
+            display: flex;
+            flex-direction:row;
+            align-items: center;
+            justify-content: center;
+            .card{
+                width: 440px;
+                height: 600px;
+                background: #000;
+                display: flex;
+                align-items: end;
+                cursor: pointer;
+                &__padreadores{
+                    background: url('../../../public/assets/images/padreadores.jpg') center center no-repeat;
+                    background-size: 100%;
+                    transition: 500ms linear;
+                    &:hover{
+                        transform: scale(1.1);
+                        .card__content{
+                            width: 400px;
+                            height: 560px;
+                            padding: 0 0 40px 40px;
+
+                            h2,span{
+                                display: block;
+                            }
+                        }
+                    }
+                }
+                &__matrizes{
+                    background: url('../../../public/assets/images/matrizes.png') center center no-repeat;
+                    background-size: 100%;
+                    margin: 0 20px;
+                    transition: 500ms linear;
+                    &:hover{
+                        transform: scale(1.1);
+                        .card__content{
+                            width: 400px;
+                            height: 560px;
+                            padding: 0 0 40px 40px;
+
+                            h2,span{
+                                display: block;
+                            }
+                        }
+                    }
+                }
+                &__filhotes{
+                    background: url('../../../public/assets/images/filhotes.png') center center no-repeat;
+                    background-size: 100%;
+                    transition: 500ms linear;
+                    &:hover{
+                        transform: scale(1.1);
+                        .card__content{
+                            width: 400px;
+                            height: 560px;
+                            padding: 0 0 40px 40px;
+
+                            h2,span{
+                                display: block;
+                            }
+                        }
+                    }
+                }
+                &__content{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    justify-content: end;
+                    background: url('../../../public/assets/images/bg-efeito.png') repeat;
+                    width: 0px;
+                    height: 0px;
+                    transition: 500ms linear;
+                    h2{
+                        color: var(--secondary);
+                        display: none;
+                        font-size: 32px;
+                        transition: 500ms linear;
+                        margin-bottom: 10px;
+                    }
+                    span{
+                        color: var(--white);
+                        display: none;
+                        @include lato-thin;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+
+@media (max-width: $layout-breakpoint-mobile) {
+    #estrelas{
+        background: #CEE2EF;
+        .estrelas{
+    
+            &__header{
+                width: 90%;
+                padding: 10% 5%;
+                h2{
+                }
+                p{
+                    max-width: 100%;
+                }
+            }
+            &__content{
+                width: 90%;
+                padding: 0 5% 5%;
+                display: flex;
+                flex-direction:column;
+                align-items: center;
+                justify-content: center;
+                .card{
+                    width: 90%;
+                    height: 600px;
+                    margin: 5% 0;
+                    background: #000;
+                    display: flex;
+                    align-items: end;
+                    cursor: pointer;
+                    &__padreadores{
+                        background: url('../../assets/images/padreadores.jpg') center center no-repeat;
+                        background-size: 100%;
+                        transition: 500ms linear;
+                        &:hover{
+                            transform: scale(1.1);
+                            .card__content{
+                                width: 95%;
+                                height: 560px;
+                                padding: 0 0 40px 5%;
+    
+                                h2,span{
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                    &__matrizes{
+                        background: url('../../assets/images/matrizes.png') center center no-repeat;
+                        background-size: 100%;
+                        margin: 0 20px;
+                        transition: 500ms linear;
+                        &:hover{
+                            transform: scale(1.1);
+                            .card__content{
+                                width: 95%;
+                                height: 560px;
+                                padding: 0 0 40px 5%;
+    
+                                h2,span{
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                    &__filhotes{
+                        background: url('../../assets/images/filhotes.png') center center no-repeat;
+                        background-size: 100%;
+                        transition: 500ms linear;
+                        &:hover{
+                            transform: scale(1.1);
+                            .card__content{
+                                width: 95%;
+                                height: 560px;
+                                padding: 0 0 40px 5%;
+    
+                                h2,span{
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                    &__content{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: start;
+                        justify-content: end;
+                        h2{
+                            color: var(--secondary);
+                            display: none;
+                            font-size: 32px;
+                            transition: 500ms linear;
+                            margin-bottom: 10px;
+                        }
+                        span{
+                            color: var(--white);
+                            display: none;
+                            @include lato-thin;
+                        }
+                    }
+    
+                }
+            }
+        }
+    }
+}

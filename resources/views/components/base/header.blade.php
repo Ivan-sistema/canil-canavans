@@ -7,12 +7,12 @@
             </div>
             <div class="navigator">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">O Canil</a></li>
-                    <li><a href="#">O Husky</a></li>
-                    <li><a href="#">Nossas Estrelas</a></li>
-                    <li><a href="#">Filhotes</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="{{route('home')}}" title="Home">Home</a></li>
+                    <li><a href="{{route('ocanil')}}" title="O-Canil">O Canil</a></li>
+                    <li><a href="{{route('ohusky')}}" title="O-Husky">O Husky</a></li>
+                    <li><a href="{{route('nossas-estrelas')}}" title="Nossas Estrelas">Nossas Estrelas</a></li>
+                    <li><a href="{{route('filhotes')}}" title="Filhotes">Filhotes</a></li>
+                    <li><a href="{{route('contato')}}" title="Contato">Contato</a></li>
                 </ul>
             </div>
         </div>
@@ -21,8 +21,7 @@
                 <h2>HUSKY SIBERIANO</h2>
                 <h4>QUALIDADE</h4>
                 <p>Criação Especializada em HUSKY SIBERIANO feita com amor e responsabilidade. Filhotes lindos, vacinados, vermifugados e microchipados.</p>
-                <x-button.button-action link="#" title="Canil Canavans - Saiba Mais" conteudo="Saiba Mais" />
-
+                <x-button.button-action link="{{route('ocanil')}}" title="Canil Canavans - Saiba Mais" conteudo="Saiba Mais" />
             </div>
         </div>
 

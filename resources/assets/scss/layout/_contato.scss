@@ -1,0 +1,72 @@
+#contato{
+    height: 1000px;
+    .contato{
+        &__formulario{
+            padding: 2.5% 5%;
+            width: 40%;
+            background: var(--secondary);
+
+            &--title-form{
+                margin: 32px 0;
+                h3{
+                    font-size: 32px;
+                    @include lato-bold;
+                    color: var(--primary);
+                }
+            }
+        }
+        &__parceiros{
+            padding: 2.5% 5%;
+            width: 40%;
+            background: var(--primary);
+        }
+    }
+}
+
+
+input,
+select{
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    font-size: 14px;
+    height: 50px;
+}
+
+.form{
+    &-group{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &-divisor{
+        width: 40%;
+    }
+}
+
+
+@media (max-width: $layout-breakpoint-mobile){
+    #contato{
+        height: auto;
+        flex-direction: column;
+        .contato{
+            &__formulario{
+                width: 90%;
+            }
+            &__parceiros{
+                width: 90%;
+            }
+        }
+    }
+    .form{
+        &-divisor{
+            width: 100%;
+        }
+    }
+}
