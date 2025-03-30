@@ -25,6 +25,9 @@
   &--item{
     width: 33.3%;
     transition: 200ms linear;
+    img{
+      width: 100%;
+    }
     &:hover{
       transform: scale(1.1);
     }

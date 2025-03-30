@@ -17,7 +17,7 @@ use App\Http\Controllers\SiteController;
 Route::get('/', [SiteController::class, 'index'])->name('home');
 Route::get('/o-canil', [SiteController::class, 'ocanil'])->name('ocanil');
 Route::get('/o-husky', [SiteController::class, 'ohusky'])->name('ohusky');
-Route::get('/nossas-estrelas', [SiteController::class, 'nossas-estrelas'])->name('nossas-estrelas');
+Route::get('/nossas-estrelas', [SiteController::class, 'nossas_estrelas'])->name('nossas_estrelas');
 Route::get('/filhotes', [SiteController::class, 'filhotes'])->name('filhotes');
 Route::get('/contato', [SiteController::class, 'contato'])->name('contato');
 

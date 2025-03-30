@@ -642,6 +642,9 @@ button {
   width: 33.3%;
   transition: 200ms linear;
 }
+.gallery__content--item img {
+  width: 100%;
+}
 .gallery__content--item:hover {
   transform: scale(1.1);
 }
