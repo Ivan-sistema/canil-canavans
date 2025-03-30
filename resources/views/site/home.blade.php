@@ -91,7 +91,7 @@
             </div>
             <div class="estrelas__content">
                 <div class="card card__padreadores">
-                    <a href="{{route('nossas-estrelas')}}" title="{{ config('app.name', 'Canil Canavans') }} | Padreadores">
+                    <a href="{{route('nossas_estrelas')}}" title="{{ config('app.name', 'Canil Canavans') }} | Padreadores">
                         <div class="card__content">
                             <h2>PADREADORES</h2>
                             <span>SAIBA +</span>
@@ -99,7 +99,7 @@
                     </a>
                 </div>
                 <div class="card card__matrizes">
-                    <a href="{{route('nossas-estrelas')}}" title="{{ config('app.name', 'Canil Canavans') }} | Matrizes">
+                    <a href="{{route('nossas_estrelas')}}" title="{{ config('app.name', 'Canil Canavans') }} | Matrizes">
                         <div class="card__content">
                             <h2>MATRIZES</h2>
                             <span>SAIBA +</span>

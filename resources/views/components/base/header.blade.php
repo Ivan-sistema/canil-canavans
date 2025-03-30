@@ -10,7 +10,7 @@
                     <li><a href="{{route('home')}}" title="Home">Home</a></li>
                     <li><a href="{{route('ocanil')}}" title="O-Canil">O Canil</a></li>
                     <li><a href="{{route('ohusky')}}" title="O-Husky">O Husky</a></li>
-                    <li><a href="{{route('nossas-estrelas')}}" title="Nossas Estrelas">Nossas Estrelas</a></li>
+                    <li><a href="{{route('nossas_estrelas')}}" title="Nossas Estrelas">Nossas Estrelas</a></li>
                     <li><a href="{{route('filhotes')}}" title="Filhotes">Filhotes</a></li>
                     <li><a href="{{route('contato')}}" title="Contato">Contato</a></li>
                 </ul>

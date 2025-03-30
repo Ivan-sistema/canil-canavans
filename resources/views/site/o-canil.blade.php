@@ -55,10 +55,7 @@
             <x-gallery.gallery image="{{asset('/assets/images/o-canil-estrutura.jpg') }}" alt="{{ config('app.name', 'Canil Canavans') }}" />
             <x-gallery.gallery image="{{asset('/assets/images/o-canil.jpg') }}" alt="{{ config('app.name', 'Canil Canavans') }}" />
             <x-gallery.gallery image="{{asset('/assets/images/o-canil-estrutura.jpg') }}" alt="{{ config('app.name', 'Canil Canavans') }}" />
-                        
-            
-
-            </div>
+          </div>
           </div>
         </section>
         
