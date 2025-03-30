@@ -3,11 +3,12 @@
 @section('content')
 
         <section class="container-full" id="o-husky">
-            <div class="container o-husky">
-                <div class="o-husky__header">
-                    <h2>NOSSOS FILHOTES</h2>
-                    <p>Contamos com Huskys Siberianos com alta procedencia genética, podendo ser considerados os melhores do Brasil, nossos cães tem um tratamento de primeira linha , tanto os padreadores quanto as matrizes são campões ou filhotes de campeões se destacando nos eventos da raça. Sendo assim todos nossos filhotes também vem com essa ótima genética, quem sabe você tenha o proximo campeão.</p>
-                </div>
+        <div class="container">
+                <x-title.title-section 
+                    title="NOSSOS FILHOTES" 
+                    conteudo="Contamos com Huskys Siberianos com alta procedencia genética, podendo ser considerados os melhores do Brasil, nossos cães tem um tratamento de primeira linha , tanto os padreadores quanto as matrizes são campões ou filhotes de campeões se destacando nos eventos da raça. Sendo assim todos nossos filhotes também vem com essa ótima genética, quem sabe você tenha o proximo campeão." />
+              
+            </div>
                 
         </section>
 
@@ -36,11 +37,11 @@
         </section>
 
         <section id="estrelas" class="container-full">
-            <div class="estrela estrelas__header">
-                <h2>NOSSAS ESTRELAS</h2>
-                <p>Qualidade sempre foi nosso foco, e podemos dizer que temos os filhotes mais lindos que você pode encontrar 
-                    com procedencia genética sendo filhotes de campeões.
-                </p>
+        <div class="container">
+                <x-title.title-section 
+                    title="NOSSAS ESTRELAS" 
+                    conteudo="Qualidade sempre foi nosso foco, e podemos dizer que temos os filhotes mais lindos que você pode encontrar com procedencia genética sendo filhotes de campeões." />
+              
             </div>
             <div class="estrelas__content">
                 <div class="card card__padreadores">
