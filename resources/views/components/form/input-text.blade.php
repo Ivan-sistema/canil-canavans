@@ -1,0 +1,1 @@
+<input type="text" id="{{$id}}" name="{{$name}}" required  placeholder="{{$placeholder}}"  class="form-divisor" />
