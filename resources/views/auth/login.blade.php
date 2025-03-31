@@ -12,6 +12,13 @@
     <link rel="stylesheet" type="text/css" href="assets/css/app.css" />
     @vite(['resources/assets/css/app.css', 'resources/assets/js/app.js'])
     <title>Canil Canavans</title>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SPB6T3WMJY');
+</script>
     
   </head>
   <body>
